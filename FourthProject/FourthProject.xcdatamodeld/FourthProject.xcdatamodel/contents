@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDNewsModel" representedClassName="CDNewsModel" syncable="YES">
+        <attribute name="authorCD" attributeType="String"/>
+        <attribute name="descriptionCD" attributeType="String"/>
+        <attribute name="imageURLCD" attributeType="String"/>
+        <attribute name="newsURLCD" attributeType="String"/>
+        <attribute name="publishedAtCD" attributeType="String"/>
+        <attribute name="titleCD" attributeType="String"/>
+    </entity>
+    <entity name="ProfileModel" representedClassName="ProfileModel" syncable="YES">
+        <attribute name="dateOfUserBirth" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="Binary"/>
+        <attribute name="usersGender" optional="YES" attributeType="String"/>
+        <attribute name="usersName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CDNewsModel" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="ProfileModel" positionX="-54" positionY="36" width="128" height="89"/>
+    </elements>
+</model>
